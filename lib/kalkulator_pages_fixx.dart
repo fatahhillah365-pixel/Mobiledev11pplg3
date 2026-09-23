@@ -4,8 +4,8 @@ import 'package:flutter/services.dart';
 import 'package:get/get.dart';
 import 'package:get/state_manager.dart';
 
-class KalkulatorPages extends StatelessWidget {
-   KalkulatorPages({super.key});
+class KalkulatorPagesFixx extends StatelessWidget {
+   KalkulatorPagesFixx({super.key});
 
    final controller = Get.put(KalkulatorController());
 

@@ -1,6 +1,6 @@
 import 'package:belajar_flutter/Login_clone.dart';
 import 'package:belajar_flutter/kalkulator_page.dart';
-import 'package:belajar_flutter/kalkulator_pages.dart';
+import 'package:belajar_flutter/kalkulator_pages_fixx.dart';
 import 'package:belajar_flutter/login_page.dart';
 import 'package:belajar_flutter/pages/LoginClonefix.dart';
 import 'package:flutter/material.dart';

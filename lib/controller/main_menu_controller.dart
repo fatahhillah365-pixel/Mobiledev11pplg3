@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 class MainMenuController extends GetxController {
-  final RxInt selectedIndex = 0.obs;
+  final RxInt selectedIndex = 1.obs;
 
   void ChangePages(int index) {
     selectedIndex.value = index;

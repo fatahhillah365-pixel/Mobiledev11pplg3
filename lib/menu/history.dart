@@ -6,7 +6,8 @@ class History extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: const Text("ini history"),
+      body: Center(child: Text("ini history"),
+      ),
     );
   }
 }

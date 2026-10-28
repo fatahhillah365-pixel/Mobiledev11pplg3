@@ -36,7 +36,6 @@ class ListProdukPage extends StatelessWidget {
               await Future.delayed(Duration(seconds: 1));
               Controller.produk.assignAll(Controller.dataAwal);
             },
-            
               child: ListView.builder(
                 itemCount: Controller.produk.length,
                 itemBuilder: (context, index) {
@@ -53,6 +52,7 @@ class ListProdukPage extends StatelessWidget {
                       padding: const EdgeInsets.only(left: 20),
                       child: const Icon(Icons.delete, color: Colors.white),
                     ),
+                  
                     onDismissed: (direction) {
                       Controller.produk.removeAt(index);
                       Get.snackbar(
@@ -68,7 +68,7 @@ class ListProdukPage extends StatelessWidget {
                         snackPosition: SnackPosition.TOP,
                       );
                     },
-
+                
                     child: InkWell(
                       onTapDown: (detail) {
                         tapPosisi = detail.globalPosition;
@@ -79,8 +79,8 @@ class ListProdukPage extends StatelessWidget {
                           position: RelativeRect.fromLTRB(
                             tapPosisi.dx,
                             tapPosisi.dy,
-                            MediaQuery.of(context).size.width - tapPosisi.dx,
-                            MediaQuery.of(context).size.height - tapPosisi.dy,
+                            tapPosisi.dx,
+                            tapPosisi.dy,
                           ),
                           items: [
                             PopupMenuItem(
@@ -168,8 +168,8 @@ class ListProdukPage extends StatelessWidget {
                 },
               ),
             ),
+            ),
           ),
-        ),
-    );
+        );
   }
 }

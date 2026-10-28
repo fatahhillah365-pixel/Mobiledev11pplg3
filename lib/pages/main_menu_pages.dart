@@ -1,5 +1,4 @@
 import 'package:belajar_flutter/controller/main_menu_controller.dart';
-import 'package:belajar_flutter/menu/home.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -12,11 +11,14 @@ class MainMenuPages extends StatelessWidget {
 
     return Obx(
       () => Scaffold(
-        body: IndexedStack(index: menuController.selectedIndex.value,
+        body: IndexedStack(
+        index: menuController.selectedIndex.value,
         children: menuController.listPages,
         ),
-        bottomNavigationBar: BottomNavigationBar
-        (items: [
+        bottomNavigationBar: BottomNavigationBar(
+          currentIndex: menuController.selectedIndex.value,
+          onTap: menuController.ChangePages,
+          items: const [
           BottomNavigationBarItem(
           icon: Icon(Icons.home_filled),
           label: "home",

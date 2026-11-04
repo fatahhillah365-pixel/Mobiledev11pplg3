@@ -1,5 +1,4 @@
 import 'package:get/get.dart';
-import 'package:get/state_manager.dart';
 
 class Detaillistprodukcontroller extends GetxController{
   late String namaProduk;

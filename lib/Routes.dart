@@ -1,5 +1,5 @@
-import 'package:belajar_flutter/controller/confrirmRegistration.dart';
 import 'package:belajar_flutter/list_produk_page.dart';
+import 'package:belajar_flutter/pages/LoginClonefix.dart';
 import 'package:belajar_flutter/pages/Registration_page.dart';
 import 'package:belajar_flutter/pages/confirmRegistration.dart';
 import 'package:belajar_flutter/pages/detail_list_produk_page.dart';
@@ -15,6 +15,8 @@ class Routes {
   static const String DetailListProduk = "/detailList";
   static const String mainMenuPages = "/MainMenuPages";
   static const String menuDrawer = "/MenuDrawerPages";
+  static const String loginclonefix = "/Loginclonefix";
+
   //dll
 
   //kita tampung ke dalam array yang akan kita pasang ke main dart
@@ -25,5 +27,6 @@ class Routes {
     GetPage(name: DetailListProduk, page: () => DetailListProdukPage()),
     GetPage(name: mainMenuPages, page: () => MainMenuPages()),
     GetPage(name: menuDrawer, page: () => MenuDrawerPages()),
+    GetPage(name: loginclonefix, page: () => Loginclonefix()),
   ];
 }

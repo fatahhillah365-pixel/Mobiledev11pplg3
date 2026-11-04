@@ -82,7 +82,7 @@ String statusLogin = "";
                 ), 
               ], 
             ), 
-            Text("status login : " + statusLogin, style: TextStyle(fontSize: 30)),
+            Text("status login : $statusLogin", style: TextStyle(fontSize: 30)),
           ], 
         ), 
       ); 

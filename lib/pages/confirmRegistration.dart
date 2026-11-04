@@ -18,7 +18,7 @@ class ConfirmregistrationPages extends StatelessWidget {
             Container(
             margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
             child: Text(
-              "Nama : "+ controller.nama.toString(), 
+              "Nama : ${controller.nama}", 
               style: TextStyle(
               fontSize: 20,
               color: Colors.green),
@@ -26,7 +26,7 @@ class ConfirmregistrationPages extends StatelessWidget {
               Container(
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
               child: Text(
-                "jenis kelamin : " + controller.jenis_kelamin.toString(),
+                "jenis kelamin : ${controller.jenis_kelamin}",
                 style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 63, 28, 160)),
@@ -34,7 +34,7 @@ class ConfirmregistrationPages extends StatelessWidget {
               Container(
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
               child: Text(
-                "Alamat : " + controller.alamat.toString(),
+                "Alamat : ${controller.alamat}",
                 style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 0, 255, 55)),
@@ -42,7 +42,7 @@ class ConfirmregistrationPages extends StatelessWidget {
               Container(
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
               child: Text( 
-                "Nomor Whatsapp : " + controller.no_wa.toString(),
+                "Nomor Whatsapp : ${controller.no_wa}",
                 style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 28, 107, 160)),
@@ -51,7 +51,7 @@ class ConfirmregistrationPages extends StatelessWidget {
               Container(
               margin: const EdgeInsets.symmetric(horizontal: 20, vertical: 8),
               child: Text(
-                "Email : "+ controller.email.toString(),
+                "Email : ${controller.email}",
                 style: TextStyle(
                 fontSize: 20,
                 color: const Color.fromARGB(255, 30, 167, 17)),

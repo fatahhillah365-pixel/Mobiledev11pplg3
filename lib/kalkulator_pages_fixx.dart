@@ -1,8 +1,6 @@
 import 'package:belajar_flutter/controller/kalkulator_controller.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:get/get.dart';
-import 'package:get/state_manager.dart';
 
 class KalkulatorPagesFixx extends StatelessWidget {
    KalkulatorPagesFixx({super.key});

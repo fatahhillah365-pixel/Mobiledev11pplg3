@@ -8,19 +8,19 @@ class KalkulatorController extends GetxController{
   void tambah (double angka1,double angka2){
     double hasilTambah = angka1 + angka2 ;
     hasilHitung.value = hasilTambah;
-    Get.snackbar("hasil jumlah", "${hasilTambah.toString()}",
+    Get.snackbar("hasil jumlah", hasilTambah.toString(),
     snackPosition: SnackPosition.TOP);
   }
     void kurang (double angka1,double angka2){
     double hasilKurang = angka1 - angka2 ;
     hasilHitung.value = hasilKurang;
-    Get.snackbar("hasil jumlah", "${hasilKurang.toString()}",
+    Get.snackbar("hasil jumlah", hasilKurang.toString(),
     snackPosition: SnackPosition.TOP);
   }
       void kali (double angka1,double angka2){
     double hasilkali = angka1 * angka2 ;
     hasilHitung.value = hasilkali;
-    Get.snackbar("hasil jumlah", "${hasilkali.toString()}",
+    Get.snackbar("hasil jumlah", hasilkali.toString(),
     snackPosition: SnackPosition.TOP);
   }
       void bagi (double angka1,double angka2){
@@ -33,7 +33,7 @@ class KalkulatorController extends GetxController{
     else{
       double hasilbagi = angka1 / angka2 ;
       hasilHitung.value = hasilbagi;
-      Get.snackbar("hasil jumlah", "${hasilbagi.toString()}",
+      Get.snackbar("hasil jumlah", hasilbagi.toString(),
       snackPosition: SnackPosition.TOP);
     }
     

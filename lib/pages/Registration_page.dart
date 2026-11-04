@@ -2,7 +2,6 @@ import 'package:belajar_flutter/Routes.dart';
 import 'package:belajar_flutter/component/Custom_TextField.dart';
 import 'package:belajar_flutter/component/custom_Textfieldangka.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get_core/get_core.dart';
 import 'package:get/route_manager.dart';
 
 class RegistrationPage extends StatelessWidget {

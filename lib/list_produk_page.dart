@@ -1,12 +1,7 @@
-import 'package:belajar_flutter/Models/produk_model.dart';
 import 'package:belajar_flutter/Routes.dart';
 import 'package:belajar_flutter/controller/list_produk_Controller.dart';
-import 'package:belajar_flutter/pages/detail_list_produk_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:get/get_instance/src/extension_instance.dart';
-import 'package:get/route_manager.dart';
 
 class ListProdukPage extends StatelessWidget {
   ListProdukPage({super.key});

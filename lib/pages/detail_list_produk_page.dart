@@ -1,4 +1,3 @@
-import 'package:belajar_flutter/Models/produk_model.dart';
 import 'package:belajar_flutter/controller/detail.list.produk.controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

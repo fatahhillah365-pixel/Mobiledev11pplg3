@@ -40,7 +40,7 @@ class Home extends StatelessWidget {
             child: ListView(
               physics: AlwaysScrollableScrollPhysics(),
               children: [
-                Container(
+                SizedBox(
                   height: 300,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,

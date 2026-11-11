@@ -1,5 +1,6 @@
 import 'package:belajar_flutter/menu/history.dart';
 import 'package:belajar_flutter/menu/home.dart';
+import 'package:belajar_flutter/menu/homeAPI.dart';
 import 'package:belajar_flutter/menu/profile.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -11,5 +12,5 @@ class MenuDrawerController extends GetxController {
     selectedIndex.value = index;
   }
 
-  List<Widget> pages= [Home(), History(), Profile()];
+  List<Widget> pages= [HomeApi(), History(), Profile()];
 }

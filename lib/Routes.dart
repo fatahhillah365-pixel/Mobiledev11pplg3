@@ -3,8 +3,10 @@ import 'package:belajar_flutter/pages/LoginClonefix.dart';
 import 'package:belajar_flutter/pages/Registration_page.dart';
 import 'package:belajar_flutter/pages/confirmRegistration.dart';
 import 'package:belajar_flutter/pages/detail_list_produk_page.dart';
+import 'package:belajar_flutter/pages/detailproduk_API.dart';
 import 'package:belajar_flutter/pages/main_menu_pages.dart';
 import 'package:belajar_flutter/pages/menu_drawer_pages.dart';
+import 'package:belajar_flutter/pages/produk_pageAPI.dart';
 import 'package:get/get.dart';
 
 class Routes {
@@ -16,6 +18,8 @@ class Routes {
   static const String mainMenuPages = "/MainMenuPages";
   static const String menuDrawer = "/MenuDrawerPages";
   static const String loginclonefix = "/Loginclonefix";
+  static const String ListProdukApi = '/listprodukapi';
+  static const String DetailProdukApi = '/detailprodukapi';
 
   //dll
 
@@ -28,5 +32,7 @@ class Routes {
     GetPage(name: mainMenuPages, page: () => MainMenuPages()),
     GetPage(name: menuDrawer, page: () => MenuDrawerPages()),
     GetPage(name: loginclonefix, page: () => Loginclonefix()),
+    GetPage(name: ListProdukApi, page: () => ProdukPageapi()),
+    GetPage(name: DetailProdukApi, page: () => DetailProdukApiPage()),
   ];
 }
